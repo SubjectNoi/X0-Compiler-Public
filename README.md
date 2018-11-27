@@ -17,7 +17,7 @@
 | `语法错误检查` | 不高兴做了 | N/A |
 | `语义错误检查` | √ | N/A |
 
-X0-Complete is a complete compiler copy from http://github.com/SubjectNoi/X0-Compiler.
+X0-Complete is a complete compiler copy from http://github.com/SubjectNoi/X0-Compiler, from which full functionality can be tested.
 
 Usage：
 
