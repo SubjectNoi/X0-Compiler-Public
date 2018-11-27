@@ -1,0 +1,21 @@
+main {
+	integer i, j, flag, cnt := 0;
+	for (i := 2; i < 101; i++) {
+		flag := 0;
+		for (j := 2; j < i; j++) {
+			if (i % j == 0) {
+				flag := 1;
+				break;
+			}
+		}
+		if (flag == 0) {
+			write(i);
+			cnt++;
+		}
+	}
+	write("There are: ");
+	write(cnt);
+	write("Prime Number.");
+}
+
+// This is a sample file to show the grammar of the compiler.
